@@ -2,6 +2,8 @@ import React from "react";
 import "./Home.css";
 import Product from "./Product";
 import header from './Images/header.jpg';
+import iphone12 from './Images/iphone12.jpg';
+import airpodMax from './Images/airpod_max.jfif';
 
 function Home() {
   return (
@@ -16,17 +18,17 @@ function Home() {
         <div className="home__row">
           <Product
             id="12321341"
-            title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback"
-            price={11.96}
-            rating={5}
-            image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg"
+            title="Apple iPhone 12 (64GB) - Green Variant,A14 Bionic chip, Super Retina XDR displa, Ceramic Shield, 12MP front camera."
+            price={829.00}
+            rating={4}
+            image={iphone12}
           />
           <Product
             id="49538094"
-            title="Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl"
-            price={239.0}
-            rating={4}
-            image="https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SX450_.jpg"
+            title="AirPods Max with Smart Case and ANC, Sky Blue, high-fidelity audio, Active Noise Cancellation, theatre-like sound."
+            price={549.29}
+            rating={5}
+            image={airpodMax}
           />
         </div>
 
